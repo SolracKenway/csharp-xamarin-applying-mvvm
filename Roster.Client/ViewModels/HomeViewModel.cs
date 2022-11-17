@@ -4,7 +4,7 @@ using System.Text;
 using System.ComponentModel;
 using Xamarin.Forms;
 
-namespace Roster.Client.ViewModel
+namespace Roster.Client.ViewModels
 {
     public class HomeViewModel : INotifyPropertyChanged
     {
