@@ -6,10 +6,12 @@ using Xamarin.Forms;
 
 namespace Roster.Client.ViewModel
 {
-    class HomeViewModel
+    public class HomeViewModel : INotifyPropertyChanged
     {
-        public string Title { get; set; }
+        public string Title { get; set; } = "Roster App";
 
-        public Command UpdateApplicationCommand;
+        public Command UpdateApplicationCommand { get; }
+
+        public event PropertyChangedEventHandler PropertyChanged;
     }
 }
