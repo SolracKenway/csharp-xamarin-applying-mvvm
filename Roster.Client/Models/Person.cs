@@ -4,7 +4,10 @@ using System.Text;
 
 namespace Roster.Client.Models
 {
-    class Person
+    public class Person
     {
+        public string Name { get; set; }
+
+        public string Company { get; set; }
     }
 }
